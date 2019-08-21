@@ -1,0 +1,31 @@
+﻿body {
+   background-color: midnightblue;
+   font-size:18pt;
+   font-weight:bold;
+}
+.table{
+    background-color:cornflowerblue;
+    width:100%;
+    
+    border-color:darkblue;
+    font-size:14pt;
+    text-align:center;
+}
+.button{
+    width:99%;
+    height:99%;
+    background-color:cornflowerblue;
+    border-color:aqua;
+    font-size:14pt;
+    text-align:center;
+}
+.mainCell{
+    width:20%;
+}
+.repeaterLeftCell{
+    width:70%;
+}
+.repeaterTRueFalseCell{
+    width:15%;
+   
+}
