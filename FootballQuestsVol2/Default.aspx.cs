@@ -138,4 +138,9 @@ public partial class _Default : System.Web.UI.Page
             }
         }
     }
+
+    protected void PLButton_Click(object sender, EventArgs e)
+    {
+        CHECKtb.Text = "not working yet.";
+    }
 }
