@@ -25,8 +25,8 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void EUROButton_Click(object sender, EventArgs e)
     {
-        //yo
         blockButtons();
+        //CHECKtb.Text = "work";
         QuestionsSDS.Update();
         QuestionsSDS.SelectParameters[1].DefaultValue = "EURO";
         QuestionsSDS.SelectParameters[0].DefaultValue = "1";
@@ -35,7 +35,7 @@ public partial class _Default : System.Web.UI.Page
     public void blockButtons()
     {
         WCButton.Enabled = false; EUROButton.Enabled = false; CLButton.Enabled = false; PLButton.Enabled = false;
-        TimerLabel.Text = "5";
+        TimerLabel.Text = "60";
         Timer1.Enabled = true;
     }
 
