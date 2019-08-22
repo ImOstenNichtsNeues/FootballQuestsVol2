@@ -15,7 +15,7 @@
             </asp:ScriptManager>
             <asp:UpdatePanel ID="TimingUP" runat="server"  UpdateMode="Conditional">
                 <ContentTemplate>
-                    <asp:Label ID="timeStartLabel" runat="server" Text="TIME [s]:"></asp:Label>
+                    <asp:Label ID="timeStartLabel" runat="server" Text="TIMER [s]:"></asp:Label>
                     <asp:Label ID="TimerLabel" runat="server"></asp:Label>
                     <asp:UpdateProgress ID="UpdateProgress1" runat="server">
                     </asp:UpdateProgress>
